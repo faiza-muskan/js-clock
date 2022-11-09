@@ -8,7 +8,7 @@ setInterval(() => {
   let minute = date.getMinutes();
   let second = date.getSeconds();
 
-  let hr = hour * 30;
+  let hr = hour * 30 + min / 2;
   let min = minute * 6;
   let sec = second * 6;
 
